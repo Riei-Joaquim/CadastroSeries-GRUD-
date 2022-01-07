@@ -42,9 +42,23 @@ namespace CadastroSeries_GRUD.Src
             return Titulo;
         }
 
-        public int retornaId() {
-        
+        public int retornaId()
+        {
             return Id;
+        }
+
+        public string retornaDescricao()
+        {
+            return Descricao;
+        }
+        public Genero retornaGenero()
+        {
+            return Genero;
+        }
+        public int retornaAno()
+        {
+
+            return Ano;
         }
         public void Excluir() {
             this.isAlive = false;

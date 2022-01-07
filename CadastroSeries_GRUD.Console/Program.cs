@@ -76,7 +76,8 @@ namespace CadastroSeries_GRUD
 			Console.WriteLine(serie);
 		}
 
-		private static Serie BuildByUser(int? id) {
+		private static Serie BuildByUser(int? id)
+		{
 
 			foreach (int i in Enum.GetValues(typeof(Genero)))
 			{
@@ -94,11 +95,11 @@ namespace CadastroSeries_GRUD
 			Console.Write("Digite a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine()!;
 
-			return new Serie(id: (id is null) ? SerieRepository.ProximoId():id.Value,
+			return new Serie(id: (id is null) ? SerieRepository.ProximoId() : id.Value,
 										genero: (Genero)entradaGenero,
 										titulo: entradaTitulo,
 										ano: entradaAno,
-										descricao: entradaDescricao) ;
+										descricao: entradaDescricao);
 		}
 
 		private static void AtualizarSerie()
@@ -141,7 +142,7 @@ namespace CadastroSeries_GRUD
 
 			var opcaoUsuario = Console.ReadLine();
 			Console.WriteLine();
-			
+
 			if (opcaoUsuario is null)
 				return "NULL";
 
