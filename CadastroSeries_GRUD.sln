@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSeries_GRUD", "CadastroSeries(GRUD)\CadastroSeries_GRUD.csproj", "{335694C4-7838-4AD8-8EE1-F050835E968E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSeries_GRUD.Console", "CadastroSeries_GRUD.Console\CadastroSeries_GRUD.Console.csproj", "{65F4BDC0-3BE2-4CD9-9039-59E885CC0259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSeries_GRUD.Console", "CadastroSeries_GRUD.Console\CadastroSeries_GRUD.Console.csproj", "{65F4BDC0-3BE2-4CD9-9039-59E885CC0259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSeries_GRUD.Web", "CadastroSeries_GRUD.Web\CadastroSeries_GRUD.Web.csproj", "{7C788DD6-8275-4E6D-B1AF-6F158BFBA816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSeries_GRUD.Web", "CadastroSeries_GRUD.Web\CadastroSeries_GRUD.Web.csproj", "{7C788DD6-8275-4E6D-B1AF-6F158BFBA816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSeries_GRUD.Tests", "CadastroSeries_GRUD.Tests\CadastroSeries_GRUD.Tests.csproj", "{6201FB22-661E-4598-86E6-09CFB9BA7A5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7C788DD6-8275-4E6D-B1AF-6F158BFBA816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C788DD6-8275-4E6D-B1AF-6F158BFBA816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C788DD6-8275-4E6D-B1AF-6F158BFBA816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6201FB22-661E-4598-86E6-09CFB9BA7A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6201FB22-661E-4598-86E6-09CFB9BA7A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6201FB22-661E-4598-86E6-09CFB9BA7A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6201FB22-661E-4598-86E6-09CFB9BA7A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

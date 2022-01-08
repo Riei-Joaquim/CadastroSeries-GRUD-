@@ -35,9 +35,6 @@ namespace CadastroSeries_GRUD.Src
             return listaSerie.Count;
         }
 
-        public Serie RetornaPorId(int id)
-        {
-            return listaSerie[id];
-        }
+        public Serie RetornaPorId(int id) => listaSerie.FirstOrDefault(e => e.Id == id);
     }
 }
